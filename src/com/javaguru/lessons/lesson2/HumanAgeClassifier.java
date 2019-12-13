@@ -13,7 +13,7 @@ public class HumanAgeClassifier {
             return "student";
         } else if (age > 24 && age <= 65) {
             return "adult";
-        } else if (age > 65 && age <= 110){
+        } else if (age > 65 && age <= 110) {
             return "senior";
         } else {
             return "Incorrect age";
